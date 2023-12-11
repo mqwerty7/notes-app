@@ -9,9 +9,3 @@ export interface INoteStore {
   noteToEdit: INote;
   tags: string[];
 }
-
-export interface IWeatherImageProps {
-  symbolCode: string;
-  imgSize: string;
-  symbolPhrase?: string;
-}
