@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .note-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin: 10px;
+
+    .note-form-item {
+      margin-top: 5px;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .tag-item {
+        margin-left: 5px;
+        word-break: break-word;
+      }
+    }
+  }
+
+  .note-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+
+    .tag-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .btn {
+        border-radius: 30px;
+        background-color: #b5b5b5;
+        margin: 2px;
+      }
+
+      .active {
+        background-color: #1976d2;
+      }
+    }
+
+    .note-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .note-card {
+        width: 290px;
+        margin: 5px;
+        word-break: break-word;
+      }
+    }
+  }
+}
